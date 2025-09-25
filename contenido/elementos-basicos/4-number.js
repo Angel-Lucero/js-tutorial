@@ -27,9 +27,26 @@ const exponenciación = 2**4
 const resultado = 0.1 + 0.2 //0.3
 
 console.log(resultado)
-console.log(resultado.toFixed(1))//
+console.log(resultado.toFixed(1))//Arregla los decimales
 console.log(resultado == 0.3) //false
+console.log(resultado.toFixed(1) == 0.3)//true
 
+//OPERACIONES AVANZADAS
+const raizCuadrada = Math.sqrt(16)
+const valorAbsoluto =  Math.abs(-7)
+const aleatorio = Math.floor(Math.random()*20+1)
+//console.log(raizCuadrada)
+//console.log(valorAbsoluto)
+console.log(aleatorio)
 
+//Lenguajes de programación
 
+                            //Runtime Exception  
+//COMPILADOS: Java (JVM -> .java -> .class -> .jar)
+//INTERPRETADOS: javascript --> lee -> ejecuta
+
+const numero = 2;
+const boolean = true;
+//conversión implicita
+console.log(2+boolean)
 
